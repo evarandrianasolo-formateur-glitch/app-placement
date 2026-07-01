@@ -1,0 +1,9 @@
+# app-placement — Configuration Netlify
+
+[build]
+  publish = "."
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
